@@ -23,6 +23,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+       // return view('home');
+        return view('admin.layouts.admin_app');
+
+    }
+    public function home2()
+    {
+        //echo  csrf_field() ;
+
+        //exit;
+        return view('admin.layouts.admin_app');
     }
 }
