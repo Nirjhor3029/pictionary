@@ -17,7 +17,7 @@ $app_name = "Pictionary";
 This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
-<html>
+<html lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,6 +52,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     {{--Nir Edit--}}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{{asset('public/css/custom.css')}}">
+
 
 
 
@@ -330,13 +333,13 @@ desired effect
                     <ul class="treeview-menu">
 
                         <li>
-                            <a href="#">
+                            <a href="{{route('word_form')}}">
                                 <i class="fa fa-plus-circle"></i>
                                 Add Word
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="{{route('manage_words')}}">
                                 <i class="fa fa-table"></i>
                                 Manage Words
                             </a>
@@ -366,15 +369,10 @@ desired effect
 
         <!-- Main content -->
         <section class="content container-fluid">
-
             <!--------------------------
               | Your Page Content Here |
               -------------------------->
-            @yield('content_body')
-
-
-
-
+                @yield('content_body')
         </section>
         <!-- /.content -->
     </div>
