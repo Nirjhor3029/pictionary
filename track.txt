@@ -1,0 +1,22 @@
+
+discuss:
+-----------
+1. image->upload
+2. access_token
+3. validations ->
+
+new changed / not uploaded :
+==============================
+1. controller:
+    a. ApiController
+    b.
+2. Middleware:
+    a. VerifyCsrfToken
+3. model:
+    a. AppUser.php
+
+4. Database/migration:
+    a. App_user_table
+
+5. Routes:
+    a. web.php

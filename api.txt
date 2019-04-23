@@ -1,0 +1,15 @@
+
+
+http://localhost/nirjhor/pictionary/pictionary/app_user/signup
+name:Dev
+email:Dev@gmail.com
+password:dev1234
+image:images/dev.jpg
+country:Bangladesh
+gender:male
+birthDate:2-3-1994
+IsSubscribed:0
+signedDate:23-4-2019
+accessToken:abcd2345f6htd
+
+

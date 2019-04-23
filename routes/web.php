@@ -49,3 +49,7 @@ Route::get('/manage-word/edit/{id}','WordController@editData')->name('manage_wor
 
 Route::get('/manage-word/getdata','WordController@getData')->name('manage_words.getdata');
 //Route::post('/form-Submit','TopicController@formSubmit')->name('topic_form_submit');
+
+
+Route::post('/app_user/signup','ApiController@signUp')->name('app_user.signUp');
+
